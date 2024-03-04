@@ -1,0 +1,32 @@
+{
+    "greet": {
+        "en": "Hi there!",
+        "es": "¡Hola!",
+        "fr": "Bonjour!"
+    },
+    "title-first": {
+        "en": "I'm Pablo Castillo",
+        "es": "Soy Pablo Castillo",
+        "fr": "Je suis Pablo Castillo"
+    },
+    "title-second": {
+        "en": "Full Stack Web Developer",
+        "es": "Desarrollador Web Full Stack",
+        "fr": "Développeur Web Full Stack"
+    },
+    "description": {
+        "en": "I am a ‘work-in-progress’ programmer who loves coding, playing video games and self learning.",
+        "es": "Soy un programador en ‘desarrollo’ que ama programar, jugar videojuegos y aprender por sí mismo.",
+        "fr": "Je suis un programmeur en ‘développement’ qui aime coder, jouer à des jeux vidéo et apprendre par lui-même."
+    },
+    "contact-me": {
+        "en": "Contact me at",
+        "es": "Contáctame en",
+        "fr": "Contactez-moi à"
+    },
+    "my-projects": {
+        "en": "My Projects",
+        "es": "Mis Proyectos",
+        "fr": "Mes Projets"
+    }
+}
