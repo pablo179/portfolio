@@ -3,14 +3,10 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./clientComponents/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      'white': '#F6FAFB',
-      'blue': '#1D9DC4',
-    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -22,6 +18,14 @@ const config: Config = {
       },
       maxWidth: {
         "8xl": "70rem",
+      },
+      colors: {
+        'white': '#F6FAFB',
+        'blue': '#1D9DC4',
+        'stroke': '#F0F0DF',
+      },
+      borderRadius: {
+        "4xl": "18px",
       },
     },
   },

@@ -1,15 +1,20 @@
-import Header from './Header';
-import Contact from './Contact';
-import MyProjects from './MyProjects';
+import Header from './(sections)/Header';
+import Contact from './(sections)/Contact';
+import Projects from './(sections)/Projects';
+import Experience from './(sections)/Experience';
+import LangButton from '@/components/LangButton';
 export default function Home() {
   return (
-    <div className='p-14 w-full' >
-      <Header />
-      <Contact />
-      <div className='w-full flex justify-center  gap-6' >
-        <MyProjects />
-        <MyProjects />
+    <>
+      {/* <LangButton /> */}
+      <div className='section'>
+        <Header />
+        <Contact />
       </div>
-    </div>
+        <Projects />
+      <div className='flex h-80 w-full  justify-center gap-6'>
+        <Experience />
+      </div>
+    </>
   );
 }

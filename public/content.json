@@ -16,7 +16,7 @@
     },
     "description": {
         "en": "I am a ‘work-in-progress’ programmer who loves coding, playing video games and self learning.",
-        "es": "Soy un programador en ‘desarrollo’ que ama programar, jugar videojuegos y aprender por sí mismo.",
+        "es": "Soy un programador en ‘desarrollo’ que ama codear, jugar videojuegos y aprender por sí mismo.",
         "fr": "Je suis un programmeur en ‘développement’ qui aime coder, jouer à des jeux vidéo et apprendre par lui-même."
     },
     "contact-me": {
@@ -28,5 +28,10 @@
         "en": "My Projects",
         "es": "Mis Proyectos",
         "fr": "Mes Projets"
+    },
+    "my-experience": {
+        "en": "My Experience",
+        "es": "Mi Experiencia",
+        "fr": "Mon Expérience"
     }
 }

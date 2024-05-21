@@ -11,3 +11,7 @@ export interface Content {
     [Lang.fr]: string;
   };
 }
+
+export interface Theme {
+  theme: 'light' | 'dark';
+}

@@ -10,7 +10,7 @@ export const Context = createContext({
 });
 
 export const LanguageProvider: FC<{ children: ReactNode }> = ({ children }) => {
-  const [lang, setLang] = useState('en');
+  const [lang, setLang] = useState('es');
   const setLangMemoized = useCallback((newLang: string) => {
     setLang(newLang);
   }, []);

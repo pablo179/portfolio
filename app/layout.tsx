@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
-import './globals.css';
+import './globals.scss';
+import './mixins.scss';
 import { LanguageProvider } from '@/context/LanguajeContext';
+import { ThemeProvider } from '@/context/ThemeContext';
 import { Quicksand } from 'next/font/google';
+import 'bulma/css/bulma.css';
+
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,12 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={`bg-white ${quicksand.variable} font-quicksand max-w-8xl mx-auto`}>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
-      </body>
-    </html>
+    <ThemeProvider>
+        <body
+          className={`${quicksand.variable} font-quicksand container is-max-desktop`}
+        >
+          <LanguageProvider>
+            {children}
+          </LanguageProvider>
+        </body>
+    </ThemeProvider>
   );
 }
