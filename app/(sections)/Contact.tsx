@@ -30,7 +30,7 @@ function Contact() {
         {contactData.map(({ src, text, link }, i) => (
           <a
             key={i}
-            className='text-lg font-light hover:underline flex flex-row mx-1'
+            className='text-lg font-light text-black hover:underline flex flex-row mx-1'
             href={link}
             target='blank'
           >
@@ -40,7 +40,7 @@ function Contact() {
               width={22}
               height={11}
             />
-            <p className='pl-3' >{text}</p>
+            <p className='pl-3'>{text}</p>
           </a>
         ))}
         </div>
